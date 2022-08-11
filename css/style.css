@@ -1,0 +1,319 @@
+    @font-face {
+        font-family: "Poppins";
+        src: url("/font/Poppins-Regular.ttf");
+        font-family: "Nunito";
+        src: url("/font/static/Nunito-ExtraBold.ttf");
+    }
+    
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&family=Poppins:ital@1&display=swap');
+    .img-nav {
+        width: 27px;
+        height: 28px;
+        /* margin-right: 8px; */
+    }
+    /* .nav-bg {
+        background-color: #fff;
+    } */
+    
+    .icon {
+        src: url("assets/search.svg");
+    }
+    
+    .font-nav {
+        /* font-family: 'Nunito', sans-serif; */
+        font-family: 'Poppins', sans-serif;
+        width: 500px;
+    }
+    
+    .navbar-header {
+        float: left;
+        text-align: center;
+        width: 80%;
+        margin-left: 180px;
+    }
+    
+    .navbar-brand {
+        float: none;
+    }
+    
+    .nav-font {
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+    }
+    
+    .btn-login {
+        display: block;
+        text-decoration: none !important;
+        color: #5A4FCF;
+        background-color: #eae9f6;
+        border-radius: 12px;
+        text-align: center;
+        width: 104px;
+        height: 56px;
+        line-height: 50px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: bolder;
+    }
+    
+    .search-col {
+        font-family: 'Poppins', sans-serif;
+        border-radius: 12px;
+        font-weight: 600;
+        background: none;
+        border: 1px solid #ddd;
+        padding: 14px 20px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 332px;
+        margin-right: 20px;
+    }
+    
+    .img-home {
+        width: 1128px;
+        height: 500px;
+        border-radius: 24px;
+        margin-left: 15px;
+    }
+    
+    .carousel-cell {
+        width: 1128px;
+        height: 564px;
+        margin-left: 150px;
+        margin-top: 50px;
+    }
+    /* cell number */
+    
+    .carousel-cell:before {
+        display: block;
+    }
+    
+    .card-details {
+        margin-top: 200px;
+        margin-left: 500px;
+    }
+    
+    .text-font-p a {
+        position: relative;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: medium;
+    }
+    
+    .text-font-p a:after {
+        content: "";
+        position: absolute;
+        height: 3px;
+        width: 0%;
+        left: 0;
+        bottom: -10px;
+        background-color: #5A4FCF;
+        transition: 0.3s;
+    }
+    
+    .text-font-p:hover a:after {
+        width: 100%;
+    }
+    
+    .benefit-title {
+        margin-top: 100px;
+        color: #5A4FCF;
+        text-align: center;
+        font-family: 'Nunito', sans-serif;
+        font-weight: bold;
+    }
+    
+    .benefit {
+        margin-top: 20px;
+        color: black;
+        text-align: center;
+        font-family: 'Nunito', sans-serif;
+        font-weight: bold;
+    }
+    
+    .card-benefit {
+        display: flex;
+        /* width: 315px; */
+        /* flex-wrap: wrap; */
+        height: 347px;
+        text-align: center;
+        margin-top: 50px;
+        margin-left: 50px;
+        border-radius: 24px;
+    }
+    
+    .card img {
+        width: 58px;
+        margin-left: 120px;
+        text-align: center;
+        height: 58px;
+    }
+    
+    .card-v-details {
+        cursor: pointer;
+        text-align: center;
+        margin-left: -19px;
+        width: 295px;
+        height: 58px;
+        margin-top: 125px;
+        margin-right: 70px;
+        border-radius: 12px 12px 24px 24px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        text-align: center;
+        bottom: auto;
+    }
+    
+    .card-v-details:hover {
+        background-color: #FDC886;
+    }
+    
+    .img-ben {
+        text-align: center;
+    }
+    
+    .innovativeCarouselWrap {
+        position: relative;
+    }
+    
+    .icard-Wrap {
+        position: relative;
+    }
+    
+    .card-pop {
+        position: absolute;
+        background-color: #fff;
+        border-radius: 24px;
+        width: 390px;
+        height: 297px;
+        z-index: 9;
+        text-align: center;
+        left: calc(50% - 558px);
+        top: 20px;
+        margin: 10% 0;
+    }
+    
+    .card-pop img {
+        width: 210px;
+        height: 10%;
+        margin: auto;
+        text-align: left;
+        margin-top: 13px;
+    }
+    
+    .card-pop h2 {
+        margin-top: 10px;
+        font-family: 'Poppins', sans-serif;
+        left: calc(50% - 558px);
+        font-size: 22px;
+        font-weight: bold;
+        text-align: left;
+        margin-left: 15px;
+    }
+    
+    .card-pop h3 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        color: #656565;
+        text-align: left;
+        margin-left: 15px;
+    }
+    
+    .card-pop h4 {
+        font-family: 'Poppins', sans-serif;
+        /* font-weight: bold; */
+        color: #656565;
+        text-align: left;
+        font-size: 16px;
+        margin-left: 15px;
+    }
+    
+    .card-pop h5 {
+        font-family: 'Poppins', sans-serif;
+        margin-top: 20px;
+        text-align: left;
+        color: #656565;
+        font-size: 16px;
+        margin-left: 15px;
+    }
+    
+    .btn-res {
+        margin-top: 30px;
+        display: block;
+        text-decoration: none !important;
+        color: #000;
+        background-color: #FDC886;
+        border-radius: 12px;
+        text-align: center;
+        width: 226px;
+        height: 56px;
+        line-height: 60px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: bolder;
+        margin-left: 80px;
+    }
+    
+    .innovativeCarouselShield {
+        position: absolute;
+        width: 510px;
+        height: 593px;
+        z-index: 9;
+        text-align: center;
+        left: calc(50% - 658px);
+        top: 20px;
+    }
+    
+    .innovativeCarouselShield img {
+        margin: 30% 0;
+        /* align-items: left; */
+    }
+    
+    .innovativeCarouselShield h4 {
+        color: #fff;
+        font-size: 36px;
+        font-weight: 900;
+        line-height: 42px;
+        margin-bottom: 50px;
+        width: 80%;
+        margin: 0 auto 50px;
+    }
+    
+    .innovativeCarouselShield p {
+        color: #fff;
+        font-size: 20px;
+    }
+    /* .innovativeCarouselItem {} */
+    
+    .innovativeCarouselImage {
+        height: 470px;
+        margin-top: 8%;
+    }
+    
+    .innovativeCarousel .owl-prev {
+        width: 54px;
+        height: 90px;
+        position: absolute;
+        top: 35%;
+        left: 0px;
+        background: rgba(0, 0, 0, .4) url(/images/arrow_left_lg.png) center center no-repeat;
+        text-indent: -999em;
+        padding: 0;
+        border-radius: 0 !important;
+    }
+    
+    .innovativeCarousel .owl-next {
+        width: 54px;
+        height: 90px;
+        position: absolute;
+        top: 35%;
+        right: 0px;
+        background: rgba(0, 0, 0, .4) url(/images/arrow_right_lg.png) center center no-repeat;
+        text-indent: -999em;
+        padding: 0;
+        border-radius: 0 !important;
+    }
